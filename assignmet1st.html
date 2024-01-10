@@ -1,0 +1,488 @@
+<html>
+    <head>
+        <title> assignmentpay</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<style>
+
+   .buttonprop{
+    color: black;
+    padding:10px 15px;
+    background: transparent;
+    border: 1px solid grey ;
+    cursor:pointer;
+    border-radius: 10px;
+    font-size: 18px;
+   }
+   
+
+   #sb{
+    border-radius: 8px;
+    padding: 10px 15px;
+    border-color: #fdfdfd;
+    font-size: 18px;
+    border: 1px solid darkcyan ;
+   }
+  #lk{
+      font-family: 'Righteous';
+      font-size:23px;
+  }
+
+  .icon a:hover{
+     color: blue;
+     text-decoration: underline;
+  }
+  .icon{
+    color:darkslategrey;
+    font-size:18px;
+  }
+
+  .second{
+      display: flex;
+      flex-direction: row;
+  }
+
+  #aboutus{
+      margin-top: 20%;
+      margin-left: 30%; 
+      text-align: center;
+      width: 50%;
+     
+  }
+  
+  .footer{
+      display: flex;
+      background-color: rgb(62, 62, 62);
+  }
+
+  .footer > div{
+      width: 33%;
+     
+  }
+
+  .pname1{
+     color: blue;
+  }
+
+  .pname2{
+      color: blue;
+  }
+ 
+ .offer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .offer > div {
+    background-color: #ededed;
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+   }
+
+  .products1{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  }
+
+  .products1 > div {
+      text-align: center;
+      width: 25%;
+  }
+
+  .image{
+      height: 220px; 
+      width: 270px;
+  }
+  .image:hover{
+      transform: scale(1.2);
+      transition: transform .8s;
+  }
+
+  .image2{
+      height: 220px; 
+      width: 270px;
+  }
+  .image2:hover{
+      transform: scale(1.2);
+      transition: transform .8s;
+  }
+
+  .products2{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  }
+  
+  .products2 > div {
+      text-align: center;
+      width: 25%;
+  }
+
+  .blog{
+      display: flex;
+      flex-direction: row;
+      width: 100%; 
+  }
+
+  .blog > div{
+      margin: 20px;
+      width: 33.3%;
+  }
+  
+  .post{
+      width: 100%;
+  }
+  .blog img:hover{
+      transform: scale(1.2);
+      transition: transform .8s;
+  }
+
+ 
+  @media screen and (max-width: 960px){
+      .table1{
+          width: 100%;
+      }
+
+      .image{
+       height: 350px; 
+       width: 400px;
+      }
+
+      .image2{
+          height: 220px; 
+          width: 270px;
+      }
+      
+      .second{
+      display: block;
+      flex-direction: row;
+      text-align: center;
+      }
+
+      #aboutus{
+      margin-top: 0%;
+      margin-left: 25%; 
+      text-align: center;
+      width: 50%;
+     }
+
+     .products1{
+      display: block;
+      flex-direction: row;
+     }
+
+     .products1 > div {
+      text-align: center;
+      width: 100%;
+    }
+
+    .products2{
+      display: block;
+      flex-direction: row;
+     }
+  
+    .products2 > div {
+      text-align: center;
+      width: 100%;
+    }
+
+     .blog{
+      display: flex;
+      flex-direction: column; 
+     }
+     
+     .blog > div{
+      margin: 20px;
+      width: 100%;
+     }
+     .post{
+      width: 90%;
+      height: 90%;
+     }
+
+     #lk{
+      font-size: 5px;
+     }
+
+     .icon{
+      font-size: 10px;
+     }
+
+     #sb{
+      size: 20;
+     }
+       .offer{
+    display: block;
+    flex-direction: row;
+    }
+
+    .offer > div {
+    background-color: #ededed;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+   }
+   .footer{
+      display: block;
+      background-color: rgb(62, 62, 62);
+  }
+
+  .footer > div{
+      width: 100%;
+     
+  }
+  }
+  
+</style>   
+</head>
+
+<body>
+        
+  <table  class="table1">
+      <tr>
+           <td width = 20%> <h1 id = "lk" class="icon" > GREENMARKET </h1></td>
+           <td width = 52% style="word-spacing: 10px; padding-bottom: 13px;" class="icon">
+              <a> HOME </a>
+              <a> FRUITS </a>
+              <a> SALAD </a>
+              <a> JUICES </a>
+              <a> MEATS </a>
+              <a> CONTACT US </a>
+           </td>
+           <td width = 30%> <input  id = "sb" type = "search" value="search">
+           <button type="button" class="buttonprop" value="search"> Search </button> </td>
+       </tr>
+
+       <tr>
+          <td colspan="3"> <img width = 100% src ="fruits1.png"> </td>
+       </tr>
+  </table>
+
+
+
+  <div class = "second">
+        <div>
+          <img  width = 90% src="2nd.png"></td>
+        </div>
+
+        <div>
+          <p style=" font-size: large;
+           margin-top: 0%;
+          margin-left: 25%; 
+          text-align: center;
+          width: 50%;">
+           <span style=" font-size:25px; font-family:'Alako-Bold';color:#95d850;">
+            <i>  A Few Words About Our Store</span><br></i><br>
+            <b>  <span style="font-size:xx-large;">ABOUT US</span><br></b>
+              Grocmart is a family-owned grocery store that has been offering quality products for your everyday life since 1999,
+               while also providing superior service and competitive prices.
+          </p>
+        </div>             
+  </div>
+
+
+
+  <p style="text-align: center;"> 
+    <span style=" color: green; font-size:25px;">
+     <i> Fresh fruits & vegetables supplied to the catering industry</i>
+    </span><br>
+    <b><span style=" color: black; font-size:xx-large;">SERVICES</span></b>
+  </p>
+
+  <div class="offer">
+      <div ><span style ="font-size: 24px ;color:black">QUALITY<br> PRODUCTS <br></span><br>
+          We work with the best suppliers to <br>
+          offer our customers the fresh grocery <br>
+          products of the highest quality.</div>
+      
+      <div><span style ="font-size: 24px ;color:black">AFFORDABLE <br>PRICES </span><br><BR>
+        Thanks to our affordable <BR>
+        pricing policy, our customers  <br>
+        don’t have to overpay for the
+          PRODUCT they need. <br></div>
+
+           <div><span style ="font-size: 24px ;color:black">FAST SHIPPING </span><br><BR>
+            Our store offers fast <br>
+            worldwide shipping to all <br>
+            customers regardless of what<BR>
+              and how much you order.</div>
+      
+          <div><span style ="font-size: 24px ;color:black">OPEN 24/7</span><br><BR>
+            Unlike other grocery shops, <br>
+            we are ready to serve you<br>
+            24/7 and offer the best<BR>
+            selection of groceries.</div>
+  </div>
+
+  <p style="text-align: center;"> 
+      <span style=" color: green; font-size:22px;">
+        <i>Latest Arrivals</i>
+      </span><br>
+      <span style=" color: black; font-size:xx-large;"><B>NEW PRODUCTS</B></span>
+  </p> 
+  
+ 
+  <div class = "products1">
+      <div>
+          <img class = "image" src="banana.png"/><br>
+          <p class = "pname1">BANANAS</p>
+          <img src="rating.png" height= 30 width= 40/>
+          <P>Rs 60</P>
+      </div>
+
+      <div>
+          <img class = "image" src="strawberry.PNG"/><br>
+          <p class = "pname1">STRAWBERRIES</p>
+          <img src="rating.png" height= 30 width= 40/>
+          <P> Rs 60</P>
+      </div>
+
+      <div>
+          <img class = "image" src="cabbbage.png"/><br>
+          <p class = "pname1">CABBAGE</p>
+          <img src="rating.png" height= 30 width= 40/>
+          <P> Rs 60</P>
+      </div>
+
+      <div>
+          <img class = "image" src=""/><br>
+          <p class = "pname1">ORANGES</p>
+          <img src="rating.png" height= 30 width= 40/>
+          <P>Rs 60</P>
+      </div>
+  </div>
+
+
+
+  <div class="products2">
+      <div>
+          <img class = "image2" src="tomato.png"/><br>
+          <p class = "pname2">TOMATOES</p>
+          <img src="rating.png" height= 30 width="40"/>
+          <P>Rs 60</P>
+      </div>
+
+      <div>
+          <img class = "image2" src="corn.png"/><br>
+          <p class = "pname2">SWEETS CORN</p>
+          <img src="rating.png" height= 30 width="40"/>
+          <P> Rs 60</P>
+      </div>
+
+      <div>
+          <img class = "image2" src="eggplant.png"/><br>
+          <p class = "pname2">EGGPLANT</p>
+          <img src="rating.png" height= 30 width="40"/>
+          <P> Rs 60</P>
+      </div>  
+
+      <div>
+          <img class = "image2" src="carrot.png"/><br>
+          <p class = "pname2">CARROT</p>
+          <img src="rating.png" height= 30 width="40"/>
+          <P> Rs 60</P>
+      </div>
+  </div>
+
+
+
+  <p style="text-align: center;"> 
+     
+     <span style=" color: green; font-size:22px">
+        <i>Latest Testimonials</i>
+      </span><br>
+      <span style=" color: black; font-size:29PX;">OUR CLIENTS</span>
+  </p>
+
+  <p style="text-align: center;"> 
+      <span style=" color: green; font-size:22px;">
+      <i> Latest News</i>
+      </span><br>
+      <span style=" color: black; font-size:xx-large;">OUR Blogs</span>
+  </p>
+
+
+  <div class="blog">
+      <div>
+          <img class = "post" src="3ka1.png"/>
+          <p>
+              <span style="font-size: 20px;"> useful tips for smart Grocery shopping </span> <br>
+              july 2, 2020
+          </p>
+      </div>
+
+      <div>
+          <img class = "post" src="3ka2.png"/>
+          <p>
+              <span style="font-size: 20px;"> useful tips for smart Grocery shopping </span> <br>
+              july 2, 2020
+          </p>
+      </div>
+
+      <div>
+          <img class = "post" src="3ka3.png"/>
+          <p>
+              <span style="font-size: 20px;"> useful tips for smart Grocery shopping </span> <br>
+              july 2, 2020
+          </p>
+      </div>
+  </div>
+
+
+ 
+  <div class="footer">
+     
+      <div>
+       <h3 style="color: rgb(0, 172, 0); margin-left: 20px;"> Shopping Guide</h3>
+       <ul style="color: #c6c6c6;">
+          <li> blog </li>
+          <li> FAQs </li>
+          <li> Payment </li>
+          <li> Shipment </li>
+       </ul>
+     </div>
+
+     <div>
+        <h3 style="color: rgb(0, 172, 0); margin-left: 20px;"> Information</h3>
+        <ul style="color: #c6c6c6;">
+          <li> Site Map </li>
+          <li> Search Term </li>
+          <li> Advance Serarch </li>
+          <li> About Us </li>
+          <li> suppliers </li> 
+          <li style="list-style-type: none;"> <img width= 40px height= 40px src=""/>
+              <img width= 40px height= 40px src=""/>
+              <img width= 40px height= 40px src=""/>
+              <img width= 40px height= 40px src=""/>
+              <img width= 40px height= 40px src=""/>
+         </li>    
+         </ul>    
+      </div>   
+
+      <div>
+          <h3 style="color: rgb(0, 172, 0); margin-left: 20px;">Contact Us</h3>
+              <a style="color: #c6c6c6; padding-left: 20px;"> KlbTheme, 789 Main rd, Anytown, CA 12345 USA</a> <br>
+              <a style="color: #c6c6c6; padding-left: 20px;"> + 888 456-7890</a><br>
+              <a style="color: #c6c6c6; padding-left: 20px;"> grrenmarket@gmail.com</a><br>
+      </div>
+
+  </div>
+          
+
+
+
+</body>
+</html>
+
+
+  
+    
+
